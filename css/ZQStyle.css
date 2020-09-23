@@ -1,0 +1,55 @@
+﻿
+    navigationpage {
+        background-color: red;
+    }
+
+    ^contentpage {
+        background-color: red;
+        border-width:thick;
+        border-color:darkred;
+    }
+
+    #listView {
+        background-color: lightgray;
+        border-width:thick;
+        border-color:darkred;
+    }
+    .datatemplate {
+        background-color: red;
+        border-width: thick;
+        border-color: darkred;
+    }
+    stacklayout {
+        margin: 20;
+    }
+
+    .mainPageTitle {
+        font-style: oblique;
+        font-size: large;
+    }
+
+    .mainPageSubtitle {
+        margin-top: 15;
+    }
+
+    .detailPageTitle {
+        font-style: oblique;
+        font-size: larger;
+        text-align: center;
+    }
+
+    .detailPageSubtitle {
+        text-align: center;
+        font-style: italic;
+    }
+
+    listview image {
+        height: 60;
+        width: 60;
+    }
+
+    stacklayout > image {
+        height: 200;
+        width: 200;
+    }
+
